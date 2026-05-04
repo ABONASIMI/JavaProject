@@ -1,0 +1,659 @@
+--------------------------------------------------
+Simulation initialisee.
+Resume: planctons=15, recifs=6, sardines=6, tunas=3
+Sardine-1 en (5,1)
+Sardine-2 en (10,7)
+Sardine-3 en (8,8)
+Sardine-4 en (8,4)
+Sardine-5 en (5,4)
+Sardine-6 en (3,5)
+Tuna-1 en (3,1)
+Tuna-2 en (7,5)
+Tuna-3 en (4,4)
+Ship-1 en (8,6)
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Pla|   |   |   |Pla|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|Tun|   |   |Pla|Sar|   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Tun|Pla|   |   |   |Pla|Rec|
+:---:---:---:---:---:---:---:---:---:---:
+|Sar|Rec|   |Sar|Rec|Pla|   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Rec|Tun|   |Pla|   |   |Pla|
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Sar|   |Shi|   |Sar|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Pla|   |   |   |Rec|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |Pla|   |Pla|   |Sar|   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+--------------------------------------------------
+Debut de la simulation marine
+--------------------------------------------------
+ETAPE 1
+Plancton: 15 ressource(s) ont grandi.
+Sardine-1 se deplace vers le plancton.
+Sardine-2 se deplace vers le plancton.
+Sardine-3 se deplace vers le plancton.
+Sardine-4 mange un peu de plancton en (9,4).
+Sardine-5 mange un peu de plancton en (4,4).
+Sardine-6 mange un peu de plancton en (3,5).
+Tuna-1 mange Sardine-1.
+Tuna-2 se deplace vers une sardine.
+Tuna-3 mange Sardine-5.
+Ship-1 capture Tuna-2 (prises=1).
+Resume: planctons=15, recifs=6, sardines=4, tunas=2
+Sardine-2 en (10,6)
+Sardine-3 en (7,8)
+Sardine-4 en (8,4)
+Sardine-6 en (3,5)
+Tuna-1 en (4,1)
+Tuna-3 en (5,4)
+Ship-1 en (8,5)
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Pla|   |   |   |Pla|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Pla|Sar|   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|Tun|   |   |Pla|Pla|   |   |   |Pla|Rec|
+:---:---:---:---:---:---:---:---:---:---:
+|Rec|Rec|   |Tun|Rec|Pla|   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Rec|   |   |Pla|Sar|   |Pla|
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Sar|Shi|Pla|   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Pla|   |   |   |Rec|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |Pla|   |Pla|Sar|   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+--------------------------------------------------
+ETAPE 2
+Plancton: 15 ressource(s) ont grandi.
+Sardine-2 mange un peu de plancton en (10,5).
+Sardine-3 mange un peu de plancton en (7,7).
+Sardine-4 mange un peu de plancton en (9,4).
+Sardine-6 mange un peu de plancton en (3,5).
+Tuna-1 se deplace vers une sardine.
+Tuna-3 se deplace vers une sardine.
+Ship-1 se deplace vers un thon.
+Resume: planctons=15, recifs=6, sardines=4, tunas=2
+Sardine-2 en (10,6)
+Sardine-3 en (7,8)
+Sardine-4 en (8,4)
+Sardine-6 en (3,5)
+Tuna-1 en (3,1)
+Tuna-3 en (6,4)
+Ship-1 en (7,5)
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Pla|   |   |   |Pla|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|Tun|   |   |Pla|Sar|   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Pla|Pla|   |   |   |Pla|Rec|
+:---:---:---:---:---:---:---:---:---:---:
+|Rec|Rec|   |   |Rec|Pla|   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Tun|   |   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Rec|Shi|   |Pla|Sar|   |Pla|
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Sar|   |Pla|   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Pla|   |   |   |Rec|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |Pla|   |Pla|Sar|   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+--------------------------------------------------
+ETAPE 3
+Plancton: 15 ressource(s) ont grandi.
+Sardine-2 mange un peu de plancton en (10,5).
+Sardine-3 mange un peu de plancton en (7,7).
+Sardine-4 mange tout le plancton en (9,4).
+Sardine-6 mange tout le plancton en (3,5).
+Tuna-1 se deplace vers une sardine.
+Tuna-3 se deplace vers une sardine.
+Ship-1 capture Tuna-3 (prises=2).
+Resume: planctons=13, recifs=6, sardines=4, tunas=1
+Sardine-2 en (10,6)
+Sardine-3 en (7,8)
+Sardine-4 en (8,4)
+Sardine-6 en (3,5)
+Tuna-1 en (3,2)
+Ship-1 en (7,4)
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Pla|   |   |   |Pla|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |Tun|   |Pla|Sar|   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Pla|Pla|   |   |   |Pla|Rec|
+:---:---:---:---:---:---:---:---:---:---:
+|Rec|Rec|   |   |Rec|Pla|   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Shi|   |   |Pla|Sar|   |Pla|
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Sar|   |Pla|   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |Rec|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |Pla|   |Pla|Sar|   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+--------------------------------------------------
+ETAPE 4
+Plancton: 3 ressource(s) ont grandi.
+Sardine-2 mange un peu de plancton en (10,5).
+Sardine-3 mange un peu de plancton en (7,7).
+Sardine-4 se deplace vers le plancton.
+Sardine-6 mange un peu de plancton en (4,5).
+Tuna-1 se deplace vers une sardine.
+Ship-1 se deplace vers un thon.
+Resume: planctons=13, recifs=6, sardines=4, tunas=1
+Sardine-2 en (10,6)
+Sardine-3 en (7,8)
+Sardine-4 en (8,5)
+Sardine-6 en (3,5)
+Tuna-1 en (3,3)
+Ship-1 en (6,4)
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Pla|   |   |   |Pla|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |Tun|Pla|Sar|   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Pla|Pla|   |   |   |Pla|Rec|
+:---:---:---:---:---:---:---:---:---:---:
+|Rec|Rec|   |   |Rec|Pla|   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Shi|   |   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Rec|   |   |Pla|Sar|   |Pla|
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |Sar|Pla|   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |Rec|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |Pla|   |Pla|Sar|   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+--------------------------------------------------
+ETAPE 5
+Plancton: 4 ressource(s) ont grandi.
+Sardine-2 mange tout le plancton en (10,5).
+Sardine-3 mange tout le plancton en (7,7).
+Sardine-4 mange un peu de plancton en (8,6).
+Sardine-6 mange un peu de plancton en (4,5).
+Tuna-1 se deplace vers une sardine.
+Ship-1 se deplace vers un thon.
+Resume: planctons=11, recifs=6, sardines=4, tunas=1
+Sardine-2 en (10,6)
+Sardine-3 en (7,8)
+Sardine-4 en (8,5)
+Sardine-6 en (3,5)
+Tuna-1 en (3,4)
+Ship-1 en (5,4)
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Pla|   |   |   |Pla|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Tun|Sar|   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Pla|Pla|   |   |   |Pla|Rec|
+:---:---:---:---:---:---:---:---:---:---:
+|Rec|Rec|   |Shi|Rec|Pla|   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Rec|   |   |   |Sar|   |Pla|
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |Sar|Pla|   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |Rec|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |Pla|   |   |Sar|   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+--------------------------------------------------
+ETAPE 6
+Plancton: 2 ressource(s) ont grandi.
+Sardine-2 se deplace vers le plancton.
+Sardine-3 se deplace vers le plancton.
+Sardine-4 mange un peu de plancton en (8,6).
+Sardine-6 mange un peu de plancton en (4,5).
+Tuna-1 mange Sardine-6.
+Ship-1 se deplace vers un thon.
+Resume: planctons=11, recifs=6, sardines=3, tunas=1
+Sardine-2 en (9,6)
+Sardine-3 en (7,9)
+Sardine-4 en (8,5)
+Tuna-1 en (3,5)
+Ship-1 en (4,4)
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Pla|   |   |   |Pla|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Pla|Tun|   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Shi|Pla|   |   |   |Pla|Rec|
+:---:---:---:---:---:---:---:---:---:---:
+|Rec|Rec|   |   |Rec|Pla|   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Rec|   |   |   |   |Sar|Pla|
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |Sar|Pla|   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |Sar|   |Rec|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |Pla|   |   |   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+--------------------------------------------------
+ETAPE 7
+Plancton: 2 ressource(s) ont grandi.
+Sardine-2 mange un peu de plancton en (8,6).
+Sardine-3 mange un peu de plancton en (7,10).
+Sardine-4 mange tout le plancton en (8,6).
+Tuna-1 se deplace vers une sardine.
+Ship-1 capture Tuna-1 (prises=3).
+Resume: planctons=10, recifs=6, sardines=3, tunas=0
+Sardine-2 en (9,6)
+Sardine-3 en (7,9)
+Sardine-4 en (8,5)
+Ship-1 en (4,5)
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Pla|   |   |   |Pla|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Pla|   |   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Pla|Shi|   |   |   |Pla|Rec|
+:---:---:---:---:---:---:---:---:---:---:
+|Rec|Rec|   |   |Rec|Pla|   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Rec|   |   |   |   |Sar|Pla|
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |Sar|   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |Sar|   |Rec|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |Pla|   |   |   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+Arret: il n'y a plus de thons.
+--------------------------------------------------
+Fin de la simulation.
+Prises du bateau : 3
+--------------------------------------------------
+Simulation initialisee.
+Resume: planctons=15, recifs=6, sardines=6, tunas=3
+Sardine-1 en (2,5)
+Sardine-2 en (5,3)
+Sardine-3 en (5,2)
+Sardine-4 en (8,2)
+Sardine-5 en (3,8)
+Sardine-6 en (2,2)
+Tuna-1 en (9,6)
+Tuna-2 en (6,7)
+Tuna-3 en (4,8)
+Ship-1 en (2,4)
+:---:---:---:---:---:---:---:---:---:---:
+|Rec|   |   |   |Pla|   |   |   |   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+|   |Sar|Pla|Shi|Sar|   |   |   |   |Pla|
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |Rec|Sar|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |Tun|Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |Sar|Sar|   |   |Pla|Pla|   |   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+|   |Rec|   |   |Pla|   |Tun|Pla|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |Sar|   |   |Pla|   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|Pla|   |   |   |   |Tun|   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Pla|Pla|   |   |   |   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+--------------------------------------------------
+Debut de la simulation marine
+--------------------------------------------------
+ETAPE 1
+Plancton: 15 ressource(s) ont grandi.
+Sardine-1 mange un peu de plancton en (1,5).
+Sardine-2 se deplace vers le plancton.
+Sardine-3 se deplace vers le plancton.
+Sardine-4 mange un peu de plancton en (8,2).
+Sardine-5 se deplace vers le plancton.
+Sardine-6 mange un peu de plancton en (2,3).
+Tuna-1 se deplace vers une sardine.
+Tuna-2 se deplace vers une sardine.
+Tuna-3 mange Sardine-5.
+Ship-1 se deplace vers un thon.
+Resume: planctons=15, recifs=6, sardines=5, tunas=3
+Sardine-1 en (2,5)
+Sardine-2 en (5,4)
+Sardine-3 en (6,2)
+Sardine-4 en (8,2)
+Sardine-6 en (2,2)
+Tuna-1 en (8,6)
+Tuna-2 en (5,7)
+Tuna-3 en (4,8)
+Ship-1 en (3,4)
+:---:---:---:---:---:---:---:---:---:---:
+|Rec|   |   |   |Pla|   |   |   |   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+|   |Sar|Pla|   |Sar|   |   |   |   |Pla|
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Shi|   |   |Rec|   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |Tun|Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Sar|   |Pla|Tun|   |   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+|   |Sar|   |   |Pla|   |   |Pla|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |Sar|   |   |Pla|Tun|   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|Pla|   |   |   |   |   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Pla|Pla|   |   |   |   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+--------------------------------------------------
+ETAPE 2
+Plancton: 15 ressource(s) ont grandi.
+Sardine-1 mange un peu de plancton en (1,5).
+Sardine-2 se deplace vers le plancton.
+Sardine-3 se deplace vers le plancton.
+Sardine-4 mange un peu de plancton en (8,2).
+Sardine-6 mange un peu de plancton en (2,3).
+Tuna-1 se deplace vers une sardine.
+Tuna-2 se deplace vers une sardine.
+Tuna-3 se deplace vers une sardine.
+Ship-1 se deplace vers un thon.
+Resume: planctons=15, recifs=6, sardines=5, tunas=3
+Sardine-1 en (2,5)
+Sardine-2 en (5,5)
+Sardine-3 en (7,2)
+Sardine-4 en (8,2)
+Sardine-6 en (2,2)
+Tuna-1 en (7,6)
+Tuna-2 en (5,6)
+Tuna-3 en (5,8)
+Ship-1 en (4,4)
+:---:---:---:---:---:---:---:---:---:---:
+|Rec|   |   |   |Pla|   |   |   |   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+|   |Sar|Pla|   |Sar|   |   |   |   |Pla|
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |Rec|   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Shi|   |   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |Sar|Tun|Pla|Tun|   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+|   |Rec|   |   |Pla|   |   |Pla|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |Sar|   |   |   |Tun|   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |Sar|   |   |Pla|   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|Pla|   |   |   |   |   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Pla|Pla|   |   |   |   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+--------------------------------------------------
+ETAPE 3
+Plancton: 15 ressource(s) ont grandi.
+Sardine-1 mange tout le plancton en (1,5).
+Sardine-2 mange un peu de plancton en (5,6).
+Sardine-3 mange tout le plancton en (8,2).
+Sardine-4 se deplace vers le plancton.
+Sardine-6 mange tout le plancton en (2,3).
+Tuna-1 se deplace vers une sardine.
+Tuna-2 mange Sardine-2.
+Tuna-3 se deplace vers une sardine.
+Ship-1 se deplace vers un thon.
+Resume: planctons=12, recifs=6, sardines=4, tunas=3
+Sardine-1 en (2,5)
+Sardine-3 en (7,2)
+Sardine-4 en (9,2)
+Sardine-6 en (2,2)
+Tuna-1 en (6,6)
+Tuna-2 en (5,5)
+Tuna-3 en (4,8)
+Ship-1 en (5,4)
+:---:---:---:---:---:---:---:---:---:---:
+|Rec|   |   |   |   |   |   |   |   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+|   |Sar|   |   |Sar|   |   |   |   |Pla|
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |Rec|   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |Tun|Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Shi|Tun|Pla|Pla|   |   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+|   |Rec|   |   |Pla|Tun|   |Pla|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |Sar|   |   |   |   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |Pla|   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|Pla|Sar|   |   |   |   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Pla|Pla|   |   |   |   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+--------------------------------------------------
+ETAPE 4
+Plancton: 1 ressource(s) ont grandi.
+Sardine-1 se deplace vers le plancton.
+Sardine-3 se deplace vers le plancton.
+Sardine-4 mange un peu de plancton en (9,1).
+Sardine-6 se deplace vers le plancton.
+Tuna-1 se deplace vers une sardine.
+Tuna-2 se deplace vers une sardine.
+Tuna-3 se deplace vers une sardine.
+Ship-1 se deplace vers un thon.
+Resume: planctons=12, recifs=6, sardines=4, tunas=3
+Sardine-1 en (3,5)
+Sardine-3 en (8,2)
+Sardine-4 en (9,2)
+Sardine-6 en (3,2)
+Tuna-1 en (5,6)
+Tuna-2 en (4,5)
+Tuna-3 en (3,8)
+Ship-1 en (5,5)
+:---:---:---:---:---:---:---:---:---:---:
+|Rec|   |   |   |   |   |   |   |   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |   |Pla|
+:---:---:---:---:---:---:---:---:---:---:
+|   |Sar|   |   |Sar|   |Rec|Tun|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |Tun|   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |Shi|Tun|Pla|   |   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+|   |Rec|   |   |Pla|   |   |Pla|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |Sar|   |   |Pla|   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|Pla|Sar|   |   |   |   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Pla|Pla|   |   |   |   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+--------------------------------------------------
+ETAPE 5
+Plancton: 2 ressource(s) ont grandi.
+Sardine-1 se deplace vers le plancton.
+Sardine-3 se deplace vers le plancton.
+Sardine-4 mange un peu de plancton en (9,1).
+Sardine-6 se deplace vers le plancton.
+Tuna-1 se deplace vers une sardine.
+Tuna-2 mange Sardine-1.
+Tuna-3 se deplace vers une sardine.
+Ship-1 capture Tuna-2 (prises=1).
+Resume: planctons=12, recifs=6, sardines=3, tunas=2
+Sardine-3 en (9,2)
+Sardine-4 en (9,2)
+Sardine-6 en (4,2)
+Tuna-1 en (4,6)
+Tuna-3 en (4,8)
+Ship-1 en (4,5)
+:---:---:---:---:---:---:---:---:---:---:
+|Rec|   |   |   |   |   |   |   |   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |   |Pla|
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |Rec|   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |Sar|   |   |Shi|Tun|   |Tun|Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |Pla|Pla|   |   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+|   |Rec|   |   |Pla|   |   |Pla|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |Pla|   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|Pla|Sar|   |   |   |   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Pla|Pla|   |   |   |   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+--------------------------------------------------
+ETAPE 6
+Plancton: 1 ressource(s) ont grandi.
+Sardine-3 mange un peu de plancton en (9,1).
+Sardine-4 mange tout le plancton en (9,1).
+Sardine-6 se deplace vers le plancton.
+Tuna-1 se deplace vers une sardine.
+Tuna-3 se deplace vers une sardine.
+Ship-1 se deplace vers un thon.
+Resume: planctons=11, recifs=6, sardines=3, tunas=2
+Sardine-3 en (9,2)
+Sardine-4 en (9,2)
+Sardine-6 en (5,2)
+Tuna-1 en (5,6)
+Tuna-3 en (5,8)
+Ship-1 en (5,5)
+:---:---:---:---:---:---:---:---:---:---:
+|Rec|   |   |   |   |   |   |   |   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |   |Pla|
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |Rec|   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |Sar|   |   |Shi|Tun|Pla|Tun|   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+|   |Rec|   |   |Pla|   |   |Pla|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |Pla|   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |Sar|   |   |   |   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Pla|Pla|   |   |   |   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+--------------------------------------------------
+ETAPE 7
+Plancton: 0 ressource(s) ont grandi.
+Sardine-3 se deplace vers le plancton.
+Sardine-4 se deplace vers le plancton.
+Sardine-6 se deplace vers le plancton.
+Tuna-1 se deplace vers une sardine.
+Tuna-3 se deplace vers une sardine.
+Ship-1 capture Tuna-1 (prises=2).
+Resume: planctons=11, recifs=6, sardines=3, tunas=1
+Sardine-3 en (10,2)
+Sardine-4 en (10,2)
+Sardine-6 en (5,3)
+Tuna-3 en (5,7)
+Ship-1 en (5,5)
+:---:---:---:---:---:---:---:---:---:---:
+|Rec|   |   |   |   |   |   |   |   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |   |Pla|
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |Rec|   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |Sar|   |Shi|Pla|Tun|   |   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+|   |Rec|   |   |Pla|   |   |Pla|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |Pla|   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |Sar|   |Pla|Pla|   |   |   |   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+--------------------------------------------------
+ETAPE 8
+Plancton: 0 ressource(s) ont grandi.
+Sardine-3 se deplace vers le plancton.
+Sardine-4 se deplace vers le plancton.
+Sardine-6 se deplace vers le plancton.
+Tuna-3 se deplace vers une sardine.
+Ship-1 capture Tuna-3 (prises=3).
+Resume: planctons=11, recifs=6, sardines=3, tunas=0
+Sardine-3 en (10,3)
+Sardine-4 en (10,3)
+Sardine-6 en (5,4)
+Ship-1 en (5,6)
+:---:---:---:---:---:---:---:---:---:---:
+|Rec|   |   |   |   |   |   |   |   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |   |Pla|
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |Rec|   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |Sar|   |Shi|Pla|   |   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+|   |Rec|   |   |Pla|   |   |Pla|   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |Pla|   |   |   |   |   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |   |   |   |   |   |   |Pla|   |
+:---:---:---:---:---:---:---:---:---:---:
+|   |   |Sar|Pla|Pla|   |   |   |   |Rec|
+:---:---:---:---:---:---:---:---:---:---:
+Arret: il n'y a plus de thons.
+--------------------------------------------------
+Fin de la simulation.
+Prises du bateau : 3
