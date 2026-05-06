@@ -36,18 +36,26 @@ public abstract class Agent extends Ressource implements Movable {
         this.actif = false;
     }
 
-    public int distanceA(int ligne, int colonne) {
+    /**
+     * Methode demandee dans le sujet : distance entre l'agent et une case cible.
+     * Ici, on utilise la distance de Manhattan.
+     */
+    public int distance(int ligne, int colonne) {
         if (!estPlace()) {
             return Integer.MAX_VALUE;
         }
         return Math.abs(getLigne() - ligne) + Math.abs(getColonne() - colonne);
     }
 
+    public int distanceA(int ligne, int colonne) {
+        return distance(ligne, colonne);
+    }
+
     public int distanceA(Ressource ressource) {
         if (ressource == null || ressource.getLigne() == -1 || ressource.getColonne() == -1) {
             return Integer.MAX_VALUE;
         }
-        return distanceA(ressource.getLigne(), ressource.getColonne());
+        return distance(ressource.getLigne(), ressource.getColonne());
     }
 
     public boolean estPlace() {
